@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/lengthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Length"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/widthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Width"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+</LinearLayout>

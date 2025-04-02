@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chapter6</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+</resources>

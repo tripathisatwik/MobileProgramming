@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FrameActivity">
+
+    <Button
+        android:id="@+id/fragmentTransitionOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transition to OneFrame"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/fragmentTransitionTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transition to TwoFrame"
+        android:visibility="gone"/>
+    <FrameLayout
+        android:id="@+id/transitionFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

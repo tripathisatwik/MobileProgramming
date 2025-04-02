@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Student Registartion LAB2</string>
+    <string-array name="spinner_items">
+        <item>BCA</item>
+        <item>BBS</item>
+        <item>BCE</item>
+        <item>BEX</item>
+        <item>BSc CSIT</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/lengthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Length"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/breadthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breadth"
+        android:inputType="numberDecimal" />
+z
+    <Button
+        android:id="@+id/calculateArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Area" />
+
+    <Button
+        android:id="@+id/calculatePerimeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Perimeter" />
+
+</LinearLayout>

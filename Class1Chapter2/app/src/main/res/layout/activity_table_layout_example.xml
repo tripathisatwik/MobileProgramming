@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_table_layout_example"
+    android:padding="20dp">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="#3A7D44"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="#9A7D"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="#497075"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="#497D74"
+            android:layout_weight="1"/>
+
+    </TableRow> <TableRow>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#9A7D44"
+        android:layout_weight="1"/>
+</TableRow>
+</TableLayout>
