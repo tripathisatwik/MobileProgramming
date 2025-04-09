@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="18dp">
+
+    <ImageView
+        android:id="@+id/rv_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ic_launcher_background"/>
+    <TextView
+        android:id="@+id/rv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satwik Tripathi"
+        android:layout_toEndOf="@id/rv_image"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="18dp"/>
+    <TextView
+        android:id="@+id/rv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+977 986XXXXXX"
+        android:layout_toEndOf="@id/rv_image"
+        android:layout_below="@id/rv_name"
+        android:textSize="20sp"
+        android:layout_marginLeft="18dp"/>
+
+</RelativeLayout>
